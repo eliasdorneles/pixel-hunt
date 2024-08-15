@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pixel Hunt</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #current-color {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #333;
+        margin: 10px;
+      }
+      #zoom-pixel-grid {
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75px;
+        height: 75px;
+      }
+      #zoom-pixel-grid div {
+        flex: 1;
+        border: 1px solid;
+        border-color: #333;
+        min-width: 20px;
+        min-height: 20px;
+      }
+      #zoom-pixel-grid div.dark,
+      #current-color.dark {
+        border-color: #eee;
+      }
+
+      #footer-credits {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        background: #333;
+        color: #ddd;
+        text-align: center;
+      }
+      #footer-credits a {
+        color: #abf;
+      }
+      #message-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 600px;
+      }
+      .notification {
+        position: relative;
+        padding: 3px 10px;
+        margin: 5px;
+        border-radius: 5px;
+        background: #9cf;
+      }
+      .notification-error {
+        background: #e55;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+    <script src="color.js"></script>
+    <script src="app.js"></script>
+    <div id="footer-credits">
+      Photos via <a href="https://www.goodfreephotos.com/">Good Free Photos</a>
+    </div>
+  </body>
+</html>
