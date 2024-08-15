@@ -8,15 +8,15 @@ let scoreElement = null;
 
 // images database
 const IMAGES = [
-  "/assets/img/ice-cream-cart-on-beach-vector-clipart_800.png",
-  "/assets/img/mallard-duck-standing-on-shore_800.jpg",
-  "/assets/img/giant-water-bug-on-rocks_800.jpg",
-  "/assets/img/people-on-tel-aviv-beach-israel_800.jpg",
-  "/assets/img/skyline-with-towers-and-sky-in-tel-aviv-israel_800.jpg",
-  "/assets/img/robin-extreme-close-up_800.jpg",
-  "/assets/img/construction-on-lake-wisconsin_800.jpg",
-  "/assets/img/skyline-of-the-cityscape-with-storm-brewing-in-tel-aviv-israel_800.jpg",
-  "/assets/img/dusk-and-sky-on-the-shoreline-in-tel-aviv-israel_800.jpg",
+  "./assets/img/ice-cream-cart-on-beach-vector-clipart_800.png",
+  "./assets/img/mallard-duck-standing-on-shore_800.jpg",
+  "./assets/img/giant-water-bug-on-rocks_800.jpg",
+  "./assets/img/people-on-tel-aviv-beach-israel_800.jpg",
+  "./assets/img/skyline-with-towers-and-sky-in-tel-aviv-israel_800.jpg",
+  "./assets/img/robin-extreme-close-up_800.jpg",
+  "./assets/img/construction-on-lake-wisconsin_800.jpg",
+  "./assets/img/skyline-of-the-cityscape-with-storm-brewing-in-tel-aviv-israel_800.jpg",
+  "./assets/img/dusk-and-sky-on-the-shoreline-in-tel-aviv-israel_800.jpg",
 ];
 
 // Game state:
